@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    color: #3a54b4;
+}
+
+.chat{
+    color: #fff;
+    background-color: #3a54b4;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    padding: 1%;
+    border-radius: 8px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+}
+
+.chat:hover{
+    cursor: pointer;
+}
+
+svg{
+    height: 3vh;
+    width: 4vh;
+    fill: #3a54b4;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fef7ed;
+    padding: 3vh 4vw;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 7rem;
+}
+
+.home-page{
+    font-size: 1.6rem;
+    color: #3a54b4;
+    font-weight: bold;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-list > li{
+    display: inline;
+}
+
+.menu-list > li > a{
+    text-decoration: none;
+    padding: 2vh 2vh;
+    font-size: 0.9rem;
+    color: #3a54b4;
+}
+
+.menu-list > li > button{
+    width: 100%;
+}
+
+.align-page{
+    height: 7rem;
+}
+
+/* =====----- PRIMEIRA SEÇÃO -----===== */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal{
+    background-color: #fef7ed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 25% 8% 25%;
+}
+
+.p-section-principal{
+    display: flex;
+    flex-direction: column;
+    line-height: 6rem;
+}
+
+.p-section-principal > span:nth-child(1){
+    font-size: 9.5rem;
+    font-weight: bold;
+}
+
+.p-section-principal > h3{
+    font-size: 9.5rem;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+
+.p-section-principal > p{
+    font-size: 2rem;
+}
+
+.principal > img{
+    border-radius: 50%;
+}
+
+.default-button{
+    color: #fff;
+    background-color: #3a54b4;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    font-size: 0.8rem;
+    padding: 3% 5%;
+}
+
+.default-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* =====----- SEGUNDA SEÇÃO -----===== */
+.about-me{
+    width: 100%;
+    padding: 6% 25% 8% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-me > img{
+    border-radius: 50%;
+}
+
+.p-about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 9%;
+}
+
+.p-about-me > p{
+    padding: 13% 0;
+    line-height: 2rem;
+    font-size: 0.9rem;
+}
+
+.p-about-me > h3{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+
+/* =====----- TERCEIRA SEÇÃO -----===== */
+
+main > h3{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25% 8% 25%;
+    align-items: center;
+}
+
+.services > div{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.services > div > img{
+    border-radius: 50%;
+    width: 220px;
+}
+
+.services > div > h4{
+    font-size: 2rem;
+}
+
+.services > div > p{
+    line-height: 2rem;
+}
+
+/* =====----- QUARTA SEÇÃO -----===== */
+.highlights > div > img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.highlights{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 5% 8% 5%;
+    gap: 1rem;
+}
+
+/* =====----- QUAINTA SEÇÃO -----===== */
+
+.comments{
+    display: flex;
+    padding: 0 23% 8% 23%;
+}
+
+.comments > div > h4{
+    font-size: 2rem;
+}
+
+.comments >div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.comments > div > p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+/* =====----- SEÇÃO CONTATO -----===== */
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 25% 0 25%;
+    gap: 3.5rem;
+    align-items: center;
+    background-color: #3a54b4;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact > h3{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.company-data{
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+    align-items: center;
+}
+
+.company-data > div > h5{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.company-data > div > p{
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+form > input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #3a54b4;
+    font-family: 'Work Sans', sans-serif;
+    padding: 2%;
+}
+
+form > div{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+form > div > input{
+    width: 50%;
+    border: 0 none;
+    background-color: #3a54b4;
+    border-bottom: 1px solid #fff;
+    font-family: 'Work Sans', sans-serif;
+    padding: 2%;
+}
+
+textarea{
+    width: 100%;
+    background-color: #3a54b4;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+
+.input-decoration::placeholder,
+textarea::placeholder{
+    color: #fff;
+}
+
+textarea::placeholder{
+    color: #fff;
+}
+
+.input-decoration:hover{
+    border-bottom: 1px solid #0000cd;
+}
+
+.submit{
+    width: 100%;
+    background-color: #3a54b4;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    padding: 2% 0;
+}
+
+.submit:hover{
+    background-color: #888888;
+    opacity: 0.5;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 10%;
+    width: 100%;
+    position: relative;
+    
+}
+
+.icons > img:hover{
+    cursor: pointer;
+}
+
+.container-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-icons > img{
+    padding: 0 5%;
+}
+
+/* =====----- RODAPÉ -----===== */
+footer{
+    background-color: #fff;
+    padding: 1% 0;
+    font-size: 0.8rem;
+}
+
+.dog-footer{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
